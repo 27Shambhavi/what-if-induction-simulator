@@ -1,0 +1,5 @@
+trainset,composite_score,pm_failure_prob,jobcard_open_frac,minutes_to_latest_fitness_expiry,branding_score,mileage_need,cleaning_required,stabling_penalty,contrib_pm,contrib_jobcard,contrib_fitness,contrib_branding,contrib_mileage,contrib_cleaning,contrib_stabling
+KMRC-012,0.87,0.1,0.0,4666,1.0,1.0,0,20,0.27,0.15,0.2,0.1,0.1,0.05,0.0
+KMRC-004,0.63,0.1,0.0,-999,0.6,0.0,0,10,0.27,0.15,0.0,0.06,0.0,0.05,0.1
+KMRC-019,0.57,0.1,0.0,-999,0.0,0.0,0,10,0.27,0.15,0.0,0.0,0.0,0.05,0.1
+KMRC-018,0.47434,0.1,1.0,-9733,0.0,0.9433962264150944,0,14,0.27,0.0,0.0,0.0,0.0943,0.05,0.06

@@ -1,0 +1,109 @@
+{
+    "date": "2025-11-22",
+    "branding_priorities": [
+        {
+            "train_id": "KMRC-012",
+            "priority_level": 1,
+            "branding_type": "Election Awareness",
+            "valid_from": "2025-11-01",
+            "valid_to": "2025-11-30",
+            "approved_by": "Marketing Dept",
+            "remarks": "High visibility coaches required"
+        },
+        {
+            "train_id": "KMRC-004",
+            "priority_level": 2,
+            "branding_type": "Tourism",
+            "valid_from": "2025-11-15",
+            "valid_to": "2025-12-15",
+            "approved_by": "Operations",
+            "remarks": "Only exterior wrapping"
+        }
+    ],
+    "cleaning_slots": [
+        {
+            "train_id": "KMRC-012",
+            "cleaning_type": "Daily Clean",
+            "slot_start": "2025-11-22T23:00:00+05:30",
+            "slot_end": "2025-11-22T23:45:00+05:30",
+            "assigned_team": "Team A",
+            "status": "Scheduled"
+        },
+        {
+            "train_id": "KMRC-019",
+            "cleaning_type": "Detailing",
+            "slot_start": "2025-11-22T22:00:00+05:30",
+            "slot_end": "2025-11-23T01:00:00+05:30",
+            "assigned_team": "Detail Squad",
+            "status": "In Progress"
+        }
+    ],
+    "stabling_geometry": [
+        {
+            "train_id": "KMRC-012",
+            "yard": "Muttom Depot",
+            "track_no": 7,
+            "berth": "B2",
+            "orientation": "UP",
+            "distance_from_buffer_m": 4.5,
+            "remarks": "Safe clearance maintained"
+        },
+        {
+            "train_id": "KMRC-018",
+            "yard": "Muttom Depot",
+            "track_no": 5,
+            "berth": "A1",
+            "orientation": "DN",
+            "distance_from_buffer_m": 3.2,
+            "remarks": "Restricted movement on left side"
+        }
+    ],
+    "fitness_certificates": [
+        {
+            "train_id": "KMRC-012",
+            "rolling_stock_validity": "2025-12-10",
+            "signalling_validity": "2025-12-07",
+            "telecom_validity": "2025-12-15",
+            "status": "Fit for Service"
+        },
+        {
+            "train_id": "KMRC-018",
+            "rolling_stock_validity": "2025-11-28",
+            "signalling_validity": "2025-11-27",
+            "telecom_validity": "2025-12-01",
+            "status": "Requires Check"
+        }
+    ],
+    "job_card_status": [
+        {
+            "train_id": "KMRC-018",
+            "job_id": "JC-4471",
+            "task": "Brake Inspection",
+            "status": "Pending",
+            "assigned_team": "Mechanical Team B",
+            "due_date": "2025-11-23"
+        },
+        {
+            "train_id": "KMRC-012",
+            "job_id": "JC-4492",
+            "task": "Coupler Torque Check",
+            "status": "Completed",
+            "completed_on": "2025-11-21"
+        }
+    ],
+    "mileage": [
+        {
+            "train_id": "KMRC-012",
+            "previous_mileage_km": 288120,
+            "current_mileage_km": 288650,
+            "delta_km": 530,
+            "remarks": "Normal usage"
+        },
+        {
+            "train_id": "KMRC-018",
+            "previous_mileage_km": 320400,
+            "current_mileage_km": 320900,
+            "delta_km": 500
+        }
+    ]
+}
