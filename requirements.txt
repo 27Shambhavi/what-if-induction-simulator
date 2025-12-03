@@ -1,0 +1,8 @@
+streamlit==1.39.0
+pandas==2.2.2
+numpy==1.26.4
+matplotlib==3.8.4
+pillow==10.4.0
+scikit-learn==1.4.2
+joblib==1.4.2
+python-dotenv==1.0.1
