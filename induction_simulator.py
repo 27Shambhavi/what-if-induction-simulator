@@ -1,18 +1,4 @@
-#!/usr/bin/env python3
-"""
-induction_simulator.py (updated)
 
-Usage examples:
-  python induction_simulator.py
-  python induction_simulator.py --input induction_input_converted.csv --num 6 --cleaning 2 --pm-threshold 0.8 --allow-expired
-
-This script:
- - loads an induction input CSV (default tries: induction_input_converted.csv, induction_input.csv)
- - validates/coerces fields
- - computes composite scores (weights configurable inside)
- - selects top N respecting cleaning capacity / hard constraints
- - writes ranked_output.csv and selected_output.csv (or custom --out-dir)
-"""
 
 import argparse
 import os
